@@ -7,9 +7,15 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "tsx": "^4.10.3"
+    "@aws-sdk/client-s3": "^3.577.0",
+    "@napi-rs/canvas": "^0.1.52",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.44.0",
+    "tsx": "^4.10.3",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@types/node": "^20.12.12",
     "@typescript-eslint/eslint-plugin": "^7.8.0",
     "@typescript-eslint/parser": "^7.8.0",
     "eslint": "^8.57.0",
